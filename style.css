@@ -1,8 +1,16 @@
+body {
+    height: 200vh;
+}
+
 div {
+    height: 200px;
+    border: 3px solid black;
+}
+
+.red {
     width: 100%;
-    max-width: 200px;
-    border: 1px solid black;
-    font-size: 12px;
-    font-weight: 100;
-    font-family: "Roboto", sans-serif;
+    background-color: red;
+    top: 100px;
+    position: sticky;
+    box-sizing: border-box;
 }
