@@ -1,16 +1,8 @@
-body {
-    height: 200vh;
+.nav__link {
+    color: black;
 }
 
-div {
-    height: 200px;
-    border: 3px solid black;
-}
-
-.red {
-    width: 100%;
-    background-color: red;
-    top: 100px;
-    position: sticky;
-    box-sizing: border-box;
+.nav__link--active {
+    color: purple;
+    font-weight: bold;
 }
